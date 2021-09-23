@@ -1,0 +1,16 @@
+﻿<Window x:Class="_2._1.AdivinaNumero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2._1.AdivinaNumero"
+        mc:Ignorable="d"
+        Title="MainWindow" Icon="C:\Users\alumno\Desktop\SyncDam\2DAM\DINT\Proyectos\2.1.AdivinaNumero\2.1.AdivinaNumero\asets\monitor_window.ico" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ComprobarButton" Content="Comprobar" Click="ComprobarNumero_click" HorizontalAlignment="Left" Margin="298,239,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Reiniciar" x:Name="ReiniciarButton" HorizontalAlignment="Left" Margin="418,239,0,0" VerticalAlignment="Top" Width="75" Click="Reiniciar_click"/>
+        <TextBox x:Name="TextoTextBox" Text="" HorizontalAlignment="Left" Height="23" Margin="336,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBlock x:Name="TextoTextBlock" HorizontalAlignment="Left" Margin="147,111,0,0" TextWrapping="Wrap" Text="Adivina el número" VerticalAlignment="Top" Height="47" Width="500" FontSize="24" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
