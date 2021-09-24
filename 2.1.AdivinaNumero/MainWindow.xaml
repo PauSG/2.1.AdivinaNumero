@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2._1.AdivinaNumero"
         mc:Ignorable="d"
-        Title="MainWindow" Icon="C:\Users\alumno\Desktop\SyncDam\2DAM\DINT\Proyectos\2.1.AdivinaNumero\2.1.AdivinaNumero\asets\monitor_window.ico" Height="450" Width="800">
+        Title="AdivinaELNumero" Icon="..\asets\monitor_window.ico" Height="450" Width="800">
     <Grid>
         <Button x:Name="ComprobarButton" Content="Comprobar" Click="ComprobarNumero_click" HorizontalAlignment="Left" Margin="298,239,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Reiniciar" x:Name="ReiniciarButton" HorizontalAlignment="Left" Margin="418,239,0,0" VerticalAlignment="Top" Width="75" Click="Reiniciar_click"/>
