@@ -38,11 +38,14 @@ namespace _2._1.AdivinaNumero
             else if(int.Parse(TextoTextBox.Text) > numero)
             {
                 TextoTextBlock.Text = "Te has pasado!";
+                TextoTextBox.Text = "";
             }
             else
             {
                 TextoTextBlock.Text = "Te has quedado corto!";
+                TextoTextBox.Text = "";//esta linea es para que se vacie el textbox para que el usuario entienda que se ha enviado el numero.
             }
+            
         }
 
         private void Reiniciar_click(object sender, RoutedEventArgs e)
